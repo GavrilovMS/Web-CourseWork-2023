@@ -1,0 +1,9 @@
+<h1>Latest News</h1>
+<ul>
+    {% for news in object_list %}
+        <li>
+            <a href="{% url 'news_detail' pk=news.pk %}">{{ news.title }}</a>
+            <p>{{ news.description }}</p>
+        </li>
+    {% endfor %}
+</ul>
