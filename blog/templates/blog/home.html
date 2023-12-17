@@ -23,8 +23,14 @@
             </div><!-- /.container-fluid -->
         </nav>
         
-        <h1>{{ homepage.title }}</h1>
-        <p>{{ homepage.description }}</p>
+        <ul>
+            <h1>{{ homepage.title }}</h1>
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    {{ homepage.description }}
+                </div>
+            </div>
+        </ul>
 
     </body>
 </html>

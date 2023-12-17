@@ -26,10 +26,17 @@
               </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
         </nav>
-        
-        <h1>Contact Information</h1>
-        <p>Address: {{ contact_page.address }}</p>
-        <p>Phone: {{ contact_page.phone }}</p>
-        <p>Email: {{ contact_page.email }}</p>
+
+        <ul>
+            <h1>Contact Information</h1>
+
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <p>Address: {{ contact_page.address }}</p>
+                    <p>Phone: {{ contact_page.phone }}</p>
+                    <p>Email: {{ contact_page.email }}</p>
+                </div>
+            </div>
+        </ul>
     </body>
 </html>
