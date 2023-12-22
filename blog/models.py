@@ -10,7 +10,7 @@ class AboutPage(models.Model):
     description = models.TextField()
 
 class News(models.Model):
-    title = models.CharField(max_length=100)
+    title = models.CharField(max_length=1000)
     description = models.TextField()
     
 
